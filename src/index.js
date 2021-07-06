@@ -21,7 +21,7 @@ function complete() {
 
 
 async function getQuote() {
-    loading()
+    loading();
     const url = "http://api.quotable.io/random";
     try{
         const r = await fetch(url);
@@ -57,6 +57,5 @@ function whatsappQuote() {
 newQuoteButton.addEventListener("click", getQuote);
 twitterButton.addEventListener("click", tweetQuote);
 whatsappButton.addEventListener("click", whatsappQuote);
-
 
 getQuote();
