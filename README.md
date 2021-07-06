@@ -1,1 +1,1 @@
-# 🚀 Welcome to Quote J 🚀
+# 🚀 Welcome to Quote J
