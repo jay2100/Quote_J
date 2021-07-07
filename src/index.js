@@ -22,7 +22,7 @@ function complete() {
 
 async function getQuote() {
     loading();
-    const url = "http://api.quotable.io/random";
+    const url = "https://api.quotable.io/random";
     try{
         const r = await fetch(url);
         const data = await r.json();
